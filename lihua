@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h> 
+void main()
+{
+	printf("short:	%d——%d\n", SHRT_MIN, SHRT_MAX);
+	printf("int:	%d——%d\n", INT_MIN, INT_MAX);
+	printf("long:	%d——%d\n", LONG_MIN, LONG_MAX);
